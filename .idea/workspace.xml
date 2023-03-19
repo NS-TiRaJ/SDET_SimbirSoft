@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d774047-3d40-439e-af07-b7a35445e7d8" name="Changes" comment="Changed README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SecondTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SecondTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SecondTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
