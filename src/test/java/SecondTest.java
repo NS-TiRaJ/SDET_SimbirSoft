@@ -9,15 +9,15 @@ public class SecondTest {
 
     @Test
     public void test2(){
-        System.setProperty("webdriver.chrome.driver","H:\\Programming\\Java\\newProject_1\\Tools\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","tools\\chromedriver.exe");
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.get("https://www.saucedemo.com/");
 
-        WebElement username_input = driver.findElement(By.xpath("//input[@id='user-name']"));
-        WebElement password_input = driver.findElement(By.xpath("//input[@placeholder='Password']"));
-        WebElement login_button = driver.findElement(By.xpath("//input[@id='login-button']"));
+        WebElement username_input = driver.findElement(By.id("user-name"));
+        WebElement password_input = driver.findElement(By.id("password"));
+        WebElement login_button = driver.findElement(By.id("login-button"));
 
         username_input.sendKeys("test");
         password_input.sendKeys("test");
